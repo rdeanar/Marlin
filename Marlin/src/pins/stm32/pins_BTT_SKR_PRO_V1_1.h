@@ -42,10 +42,10 @@
 // Limit Switches
 //
 #define X_MIN_PIN          PB10
-#define X_MAX_PIN          PE15
-#define Y_MIN_PIN          PE10 //PE12
+#define X_MAX_PIN          PD5 // PE15 – burned out, replaced by nearest pin from `extension 2`
+#define Y_MIN_PIN          PE10 // PE12 – burned out, swapped with Y_MAX
 #define Y_MAX_PIN          PE12
-#define Z_MIN_PIN          PG5 //PG8
+#define Z_MIN_PIN          PG5 // PG8  – burned out, swapped with Z_MAX
 #define Z_MAX_PIN          PG8
 
 //
