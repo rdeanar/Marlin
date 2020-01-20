@@ -556,7 +556,7 @@
  * Note: For Bowden Extruders make this large enough to allow load/unload.
  */
 #define PREVENT_LENGTHY_EXTRUDE
-#define EXTRUDE_MAXLENGTH 550
+#define EXTRUDE_MAXLENGTH 650
 
 //===========================================================================
 //======================== Thermal Runaway Protection =======================
@@ -717,14 +717,14 @@
  * Override with M92
  *                                      X, Y, Z, E0 [, E1[, E2...]]
  */
-#define DEFAULT_AXIS_STEPS_PER_UNIT   { 160, 160, 800, 191.4 }
+#define DEFAULT_AXIS_STEPS_PER_UNIT   { 160, 160, 800, 408.5 }
 
 /**
  * Default Max Feed Rate (mm/s)
  * Override with M203
  *                                      X, Y, Z, E0 [, E1[, E2...]]
  */
-#define DEFAULT_MAX_FEEDRATE          { 300, 300, 10, 25 }
+#define DEFAULT_MAX_FEEDRATE          { 300, 300, 10, 35 }
 
 //#define LIMITED_MAX_FR_EDITING        // Limit edit via M203 or LCD to DEFAULT_MAX_FEEDRATE * 2
 #if ENABLED(LIMITED_MAX_FR_EDITING)
