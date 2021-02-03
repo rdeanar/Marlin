@@ -1,0 +1,53 @@
+Send: M122
+Recv: 		X	Y	Z	E
+Recv: Address		0	0	0	0
+Recv: Enabled		true	true	true	false
+Recv: Set current	1200	1200	1100	1100
+Recv: RMS current	1160	1160	1049	1049
+Recv: MAX current	1636	1636	1479	1479
+Recv: Run current	20/31	20/31	18/31	18/31
+Recv: Hold current	10/31	10/31	9/31	9/31
+Recv: CS actual	10/31	31/31	9/31	9/31
+Recv: PWM scale	16	33	14	15
+Recv: vsense		0=.325	0=.325	0=.325	0=.325
+Recv: stealthChop	true	true	true	true
+Recv: msteps		16	8	8	8
+Recv: tstep		max	max	max	max
+Recv: pwm
+Recv: threshold	38	38	164	32
+Recv: [mm/s]		130	65	3	30
+Recv: OT prewarn	false	false	false	false
+Recv: OT prewarn has
+Recv: been triggered	false	false	false	false
+Recv: off time	4	3	4	4
+Recv: blank time	24	36	24	24
+Recv: hysteresis
+Recv: -end		2	-3	2	2
+Recv: -start		1	6	1	1
+Recv: Stallguard thrs	0	0	0	0
+Recv: DRVSTATUS	X	Y	Z	E
+Recv: stst		*	*	*	*
+Recv: olb
+Recv: ola
+Recv: s2gb
+Recv: s2ga
+Recv: otpw
+Recv: ot
+Recv: 157C
+Recv: 150C
+Recv: 143C
+Recv: 120C
+Recv: s2vsa
+Recv: s2vsb
+Recv: Driver registers:
+Recv: 		X	0xC0:0A:00:00
+Recv: 		Y	0xC0:1F:00:00
+Recv: 		Z	0xC0:09:00:00
+Recv: 		E	0xC0:09:00:00
+Recv:
+Recv:
+Recv: Testing X connection... OK
+Recv: Testing Y connection... OK
+Recv: Testing Z connection... OK
+Recv: Testing E connection... OK
+Recv: ok
